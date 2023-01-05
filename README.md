@@ -3,7 +3,7 @@
 #### ⚡ Language 
  - shell-Script
 
-This repository contains Script to Generate AppBundle for MacOSX, By-default it is set to Cpp executable file. (path to Update executable file(main) :  /Contents/MacOS/main).
+This repository contains Script to Generate AppBundle for MacOSX without XCode, By-default it is set to Cpp executable file. (path to Update executable file(main) :  /Contents/MacOS/main).
 
 
 #### Talk to me about
