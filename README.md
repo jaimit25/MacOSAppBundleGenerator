@@ -7,6 +7,7 @@ This repository contains Script to Generate AppBundle for MacOSX without XCode, 
 
 ### Direction to use :
 - To create your own executable file add your (Cpp file, with name set to main.cpp) code to exeFile folder and run the script "bash writer.sh".
+- Executable file is the Code/Task which is to be Run or Processed.
 
 ### To Build AppBundle run shell script: 
 ```
