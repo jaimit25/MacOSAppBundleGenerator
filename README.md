@@ -13,7 +13,13 @@ This repository contains Script to Generate AppBundle for MacOSX without XCode, 
 ```
 $ bash writer.sh
 ```
+### To Build AppBundle using wx-widget or fltk GUI Library use the Source Code from "main" branch and run the Program run.cpp.
+- (Note: the c++ file in the exeFile Directory should have first line as "//wx" to compile wx program or //"fltk" for fltk program).
+- wxmac and fltk should be pre-installed.(use homebrew).
 
+```
+$ brew install wxmac && brew install fltk && g++ run.cpp -o run
+```
 
 
 #### Talk to me about
