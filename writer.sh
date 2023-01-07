@@ -1,3 +1,20 @@
+#!/bin/bash
+
+
+# //checking if wxmac is installed or not
+# isPackageNotInstalled() {
+
+#     dpkg --status fltk &> /dev/null
+#     if [ $1 -eq 0 ]; then
+#     echo "fltk : Already installed "
+#     else
+#     echo "Please install fltk from brew using 'brew install fltk'"
+#     brew install $1
+#     fi
+#     }
+
+# isPackageNotInstalled fltk
+
 
  echo "Enter Project Name : "  
  read mssg 
@@ -45,7 +62,6 @@
   
   <key>CFBundleIconFile</key>
   <string>Icon.png</string>
-
   <!-- <key>CFBundleDocumentTypes</key>
   <array>
       <dict>
@@ -59,15 +75,10 @@
    
  cd $curd/exeFile
 #  clang main.cpp -o main
-  g++ *.cpp `wx-config --cxxflags --libs` -o main
+  g++ *.cpp `fltk-config --use-forms --use-gl --use-images --ldstaticflags --cxxflags` -o main
  mv main "/Users/$(whoami)/Desktop/Developer/$mssg.app/Contents/MacOS"
  echo "Bundle path is (Dont Update the Developer Folder Path) : /Users/$(whoami)/Desktop/Developer/"
 
 
 echo "Project Set Up Completed Enjoy ;)"
  fi    
-
-
-
-
-
