@@ -6,14 +6,14 @@ isPackageNotInstalled() {
 
     dpkg --status wxmac &> /dev/null
     if [ $1 -eq 0 ]; then
-    echo "wxmac : Already installed "
+    echo "fltk : Already installed "
     else
-    echo "Please install wxmac from brew using 'brew install wxmac'"
+    echo "Please install fltk from brew using 'brew install fltk'"
     brew install $1
     fi
     }
 
-isPackageNotInstalled wxmac
+isPackageNotInstalled fltk
 
 
  echo "Enter Project Name : "  
