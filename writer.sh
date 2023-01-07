@@ -58,7 +58,8 @@
 </plist>" >> Info.plist
    
  cd $curd/exeFile
- clang main.cpp -o main
+#  clang main.cpp -o main
+  g++ *.cpp `wx-config --cxxflags --libs` -o main
  mv main "/Users/$(whoami)/Desktop/Developer/$mssg.app/Contents/MacOS"
  echo "Bundle path is (Dont Update the Developer Folder Path) : /Users/$(whoami)/Desktop/Developer/"
 
