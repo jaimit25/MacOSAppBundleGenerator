@@ -22,7 +22,8 @@ $ brew install wxmac && brew install fltk && g++ run.cpp -o run
 ```
 
 ### Snapshot
-![IMAGE 2023-01-27 17:53:59](https://user-images.githubusercontent.com/68295105/215086498-5675325f-53ea-40aa-8477-ed22cc64bdaa.jpg)
+<img src="https://user-images.githubusercontent.com/68295105/215086498-5675325f-53ea-40aa-8477-ed22cc64bdaa.jpg" width="60%" height="60%">
+<img src="https://user-images.githubusercontent.com/68295105/215089382-c4e40a53-5154-4450-8340-5d7ffaaddf41.png" width="60%" height="60%">
 
 ### To change App Icon
 Replace the Icon.png file with your own App icon(keep the icon-name as Icon.png).
